@@ -1,55 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title> Project HTML & CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Timer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>HTML & CSS - Lab</h1>
-        <p><em>Learning Float, Flexbox, Grid and Responsive Design </em></p>
-    </header>
+    <h1>JavaScript Color Timer</h1>
 
-    <!-- 1. Float Section -->
-    <section class="article-section">
-        <h2>1. Float Section</h2>
+    <input type="text" id="nameInput" placeholder="Enter your name">
 
-        <article>
-            <h3>Web Development</h3>
-           <img src="https://4.bp.blogspot.com/-8VIpF4ieKH4/Utef2oOm1tI/AAAAAAAAUTc/y0FWyLwELyg/s1600/%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA,%D8%A7%D9%84%D8%AD%D8%A8,%D8%A7%D9%84%D8%B1%D9%88%D9%85%D8%A7%D9%86%D8%B3%D9%8A%D8%A9,%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9,%D8%AE%D9%8A%D8%A7%D9%84)+(6).jpg" 
-           class="viewer-media object-contain min-w-0 max-w-[50%] max-h-full basis-7/12">
-        
-            <p><B>
-                Web development is the process of creating websites.
-                HTML is used to structure the content, while CSS is
-                used to style the page and make it attractive.
-                </B>
-            </p>
-        </article>
-    </section>
+    <button id="startBtn">Start</button>
 
-    <!-- 2. Flexbox Section -->
-    <section class="flex-section">
-        <h2>2. Flexbox Section</h2>
+    <h2 id="greeting"></h2>
 
-        <div class="flex-container">
-            <div class="flex-box">Box 1</div>
-            <div class="flex-box">Box 2</div>
-            <div class="flex-box">Box 3</div>
-            <div class="flex-box">Box 4</div>
-        </div>
-    </section>
-    <!-- 3. Grid Section -->
-    <section class="grid-section">
-        <h2>3. Grid Section</h2>
-        <div class="grid-container">
-            <div class="grid-box box1">Box 1</div>
-            <div class="grid-box box2">Box 2</div>
-            <div class="grid-box box3">Box 3</div>
-            <div class="grid-box box4">Box 4</div>
-        </div>
-    </section>
+    <h2 id="timer">5</h2>
 
+    <div id="colorBox"></div>
+
+    <h2 id="finalMessage"></h2>
+
+    <script src="index.js"></script>
 </body>
 </html>
